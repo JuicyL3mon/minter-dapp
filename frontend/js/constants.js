@@ -1,4 +1,4 @@
-const contractAddress = "0x8897b55344306c20d3003f8cC61940A3aC4fa602"; // Replace with your own contract address
+const contractAddress = "0x92675dE2D825B7ad030b4F60B2df4311B7918c4a"; // Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the Poweries Throne NFT Project!!";
