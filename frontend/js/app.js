@@ -25,15 +25,18 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 
   const splide = new Splide(".splide", {
+    
     type: "loop",
     arrows: false,
-    perMove: 3,
+    perPage: 10,
+    perMove: 1,
     pagination: false,
+    direction: 'ltr',
     autoplay: true,
-    direction: 'ttb',
     height: "calc(100vh - 90px)",
-    width: '30vw',
-    autoHeight: true,
+    width: '100vw',
+    interval: 1000,
+    speed: 1000
   });
   splide.mount();
 

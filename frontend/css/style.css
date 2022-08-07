@@ -8,11 +8,12 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #2430a3;
-  --bg-color-transparent: #00163f80;
+  --bg-color: #252c2c;
+  --bg-color-transparent: #A5C9CA;
   --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --btn-bg-color: #395b64;
+  --accent-color: #E7F6F2;
+  --slider-color: #3e6772;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -318,14 +319,9 @@ section {
 
 .splide {
   position: absolute;
-  top: 90px;
-  left: 5rem;
+  top: 20%;
+  left: 0px;
   z-index: -1;
-}
-
-.splide__slide {
-  border: var(--accent-color) solid;
-  border-width: 5px 10px;
 }
 
 .splide__slide img {
@@ -335,10 +331,10 @@ section {
 /* SPINNER */
 .dot-spin {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(3);
-}
+  transform: translate(-50%, -50%) scale(1);
+} */
 
 /* MEDIA QUERIES */
 
