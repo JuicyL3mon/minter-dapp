@@ -319,7 +319,7 @@ section {
 
 .splide {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 0px;
   z-index: -1;
 }
